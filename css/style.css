@@ -1,0 +1,254 @@
+/*Форматирование страницы*/
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1366px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Шапка сайта*/
+.header__block {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 20px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 40px;
+}
+
+.header__menu p {
+    margin-left: 200px;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.header__nav a {
+    padding: 20px 48.5px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.header__nav a:hover {
+    border-bottom: 2px solid #000;
+}
+
+/*Главная страница*/
+/*Промо сайта*/
+
+/*Секция "Заказать услугу"*/
+.service-order__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 20px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.service-order__title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.service-order__service, .service-order__full-name, .service-order__phone, .service-order__e-mail, .service-order__date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+label {
+    width: 200px;
+}
+
+input {
+    padding: 5px 10px;
+
+    border: 0;
+}
+
+.button {
+    padding: 10px 20px;
+
+    width: 200px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.button--primary {
+    background: rgb(69, 192, 69);
+    border: 0;
+
+    color: white;
+    text-transform: uppercase;
+}
+
+/*Секция "Блок меню"*/
+
+/*Секция "Интерьерные студии"*/
+.studios__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+.studios__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 20px 40px;
+    margin-top: 40px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.studios__card-image {
+    max-width: 800px;
+}
+
+.studios__card-title {
+    font-size: 24px;
+}
+
+.studios__card-description {
+    padding: 20px 0;
+}
+
+/*Секция "Наша команда"*/
+.our-crew__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+.our-crew__title {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.our-crew__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 20px 0;
+}
+
+.our-crew__member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 500px;
+    padding: 20px 40px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.our-crew__member:first-child {
+    margin-right: 40px;
+}
+
+.our-crew__member:nth-child(2) {
+    margin-left: 40px;
+}
+
+.our-crew__member-photo {
+    max-height: 520px;
+}
+
+/*Секция "Это интересно"*/
+.trivia__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+.trivia__block h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.trivia__article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 20px 40px;
+    margin-top: 40px;
+
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.trivia__article-image img {
+    max-width: 400px;
+}
+
+.trivia__article-text {
+    margin-left: 40px;
+}
+
+.trivia__article-title {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.trivia__article-description {
+    padding: 20px 0;
+}
+
+.trivia__article-more {
+    color: green;
+    text-decoration: underline;
+}
+
+/*Страница "Это интересно"*/
+
+
+/*Страница "Интерьерные студии"*/
+
+
+/*Страница "Наши услуги"*/
+
+
+/*Страница "Контакты*/
+
+
+/*Подвал сайта*/
